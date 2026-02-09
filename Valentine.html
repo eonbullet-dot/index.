@@ -1,1 +1,68 @@
+HAPPY VALENTINES DAY!
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>Valentine's Day</title>
+    <style>
+        body {
+            font-family: Times New Roman, Times New Roman;
+            text-align: center;
+            background-color: #ffe6f2;
+            color: #d63384;
+            padding: 100px;
+        }
+        h1 {
+            font-size: 6em;
+        }
+        button {
+            font-size: 10em;
+            padding: 20px 30px;
+            margin: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 1s;
+        }
+        #yes {
+            background-color: #ff69b4;
+            color: white;
+        }
+        #no {
+            background-color: #ccc;
+            color: #666;
+        }
+        #message {
+            display: none;
+            font-size: 6em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="question">Can you be my valentine?</h1>
+    <button id="yes">Yes</button>
+    <button id="no">No</button>
+    <div id="message">I love you so much lablab! 💋❤️</div>
 
+    <script>
+        const yesBtn = document.getElementById('yes');
+        const noBtn = document.getElementById('no');
+        const question = document.getElementById('question');
+        const message = document.getElementById('message');
+
+        noBtn.addEventListener('click', () => {
+            noBtn.style.display = 'none'; // Hide the No button
+            yesBtn.style.fontSize = '3em'; // Make Yes bigger
+            yesBtn.style.padding = '20px 40px'; // Make it even more prominent
+        });
+
+        yesBtn.addEventListener('click', () => {
+            question.style.display = 'none';
+            yesBtn.style.display = 'none';
+            noBtn.style.display = 'none';
+            message.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
