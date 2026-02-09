@@ -1,28 +1,28 @@
-#Add Valentine Page
+HAPPY VALENTINES DAY!
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine's Prank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>Valentine's Day</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Times New Roman, sans-serif;
             text-align: center;
             background-color: #ffe6f2;
             color: #d63384;
-            padding: 50px;
+            padding: 100px;
         }
         h1 {
-            font-size: 2em;
+            font-size: 6em;
         }
         button {
-            font-size: 1.5em;
-            padding: 10px 20px;
-            margin: 10px;
+            font-size: 10em;
+            padding: 20px 30px;
+            margin: 20px;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all 1s;
         }
         #yes {
             background-color: #ff69b4;
@@ -34,8 +34,8 @@
         }
         #message {
             display: none;
-            font-size: 2em;
-            margin-top: 20px;
+            font-size: 6em;
+            margin-top: 10px;
         }
     </style>
 </head>
