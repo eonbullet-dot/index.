@@ -6,7 +6,7 @@ HAPPY VALENTINES DAY!
     <title>Valentine's Day</title>
     <style>
         body {
-            font-family: Times New Roman, sans-serif;
+            font-family: Times New Roman, Times New Roman;
             text-align: center;
             background-color: #ffe6f2;
             color: #d63384;
